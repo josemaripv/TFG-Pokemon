@@ -1,0 +1,4166 @@
+fileFormatVersion: 2
+guid: e7a72f9a33778a24b9b389dc93e89dcc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 640
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dbb5eb99a653448a3445f04a169547
+      internalID: 1149465669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 640
+        width: 38
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecbf3c0912cd8f409d5d8b7442caea3
+      internalID: 565948531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 640
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770e04642060fab4cb48697b093e274f
+      internalID: -1633968603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 640
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d7f32e2f851884195d7286cec91a84
+      internalID: 1179703976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 640
+        width: 26
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b6278cd6d12794d9ece3cf76d4d5ea
+      internalID: 1708674311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 640
+        width: 56
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56218d09c9b330b4797410e9bed499ea
+      internalID: -318846883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 640
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cdc4766b82a8c4abfdb72ac60540dd
+      internalID: -1706707030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 640
+        width: 36
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1ec09e6a5635741881e106faef00d2
+      internalID: -370356726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 640
+        width: 52
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2a41190a18f79408f70869d3b3814a
+      internalID: -2064434638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_9
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 640
+        width: 26
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0599a851138ee0b429e6e4e20d5ae485
+      internalID: 1001534435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_10
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 640
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d4f99732370264e869b23cff97dd82
+      internalID: 424057766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_11
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 644
+        width: 48
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ebbf2a39f0ed541bc3621712356a4f
+      internalID: -886819950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_12
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 640
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4c8fd030cd2f5488499221cc4c2c83
+      internalID: 1489285544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_13
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 640
+        width: 26
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f424c1a6623ee7246a2610c0d017af5b
+      internalID: -2108750058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_14
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 644
+        width: 46
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe68c788f6ec344792d10c31550d238
+      internalID: -1563110449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_15
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 640
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff6c89893703804396fc9839b70c2c9
+      internalID: 1138736420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_16
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 644
+        width: 50
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea5badd2e660e54f86ffec39b8094ad
+      internalID: 1768310359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_17
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 644
+        width: 60
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d383382dbce3ec4395681327fb7cb95
+      internalID: 1669048532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 576
+        width: 28
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09859a4d029469d44aa7b6fe7c931be6
+      internalID: 25980355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 576
+        width: 32
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab463bcff2feb54a96457821f1c987c
+      internalID: -1647112270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 576
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c640d9972394384ca6020cbf6e4ba19
+      internalID: 1052849418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 580
+        width: 58
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa558871d68c5847b8d392816c5fe5e
+      internalID: 653690692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_22
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 576
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06314ae998c7cb84097feec07bc3e8d5
+      internalID: -1592704586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_23
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 576
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047044989559e104faf0495d40f6993e
+      internalID: -459318938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 576
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025de7ab9e6b9a349bbd658c2060b346
+      internalID: 280709406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_25
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 576
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54421a0c6e9a3ba4cbaf5f8b99e349f8
+      internalID: -935884350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_26
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 576
+        width: 28
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cca78f5adbf824db248fce98813149
+      internalID: 2004227167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_27
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 576
+        width: 38
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbffe67aa8ad46c43b70e82d53a3ee60
+      internalID: -1796786068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_28
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 576
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465de44dfbf17e54f8ed4e3a5bd0337f
+      internalID: 1216484245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_29
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 576
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce767d52a1f0764aa6f574ca6820324
+      internalID: -1820413470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_30
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 576
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b124d2ea35eabd4e8bdbf614617a4aa
+      internalID: -1484975617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 576
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dfdf069a1edc14c8da73568f764fec
+      internalID: 839585998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_32
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 576
+        width: 38
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc414739db3de6f41b499f7cc00ef5a6
+      internalID: 1636529149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_33
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 576
+        width: 38
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158f823be8bea8544a63bd56c8ed3c79
+      internalID: -1258903877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_34
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 576
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87432b4976b03ca4295d0de88245be8c
+      internalID: 1857323589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_35
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 576
+        width: 42
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0473e059676ea8549a10e19297d87187
+      internalID: 1886017746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 512
+        width: 34
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cafeff5f9f6c3a47b8416ebee3be708
+      internalID: 847105174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 512
+        width: 54
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1094454ec9f50a8479935ba188c08b6f
+      internalID: -593290294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 512
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff2692b533272d4b91e255675742f87
+      internalID: -967423291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_39
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 512
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bac1fa1e8676c4392af12ec91d68e1
+      internalID: -1115760236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_40
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 516
+        width: 46
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f72cb815a701ee4bbad63a80a391f9d
+      internalID: -620937261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_41
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 516
+        width: 58
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b2d67590d31744f87337cfb148cca2
+      internalID: -381387711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_42
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 512
+        width: 30
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed21dfd31e2e1d49be06267c11f6cac
+      internalID: -682259964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_43
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 512
+        width: 36
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4e252ec06c3a14ebc74cb1e954946c
+      internalID: 741316208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_44
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 512
+        width: 42
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cce7a3d38d7d3468abafbf8537c28b
+      internalID: -952385003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_45
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 512
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2edb3bf4260cdd47a414734bd63c0e3
+      internalID: -1714211373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_46
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 512
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d411ddcd56556c341a48324d9606086f
+      internalID: -962404880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_47
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 512
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb58b4afea3dbd4eb64e925af6e9952
+      internalID: 453215647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_48
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 516
+        width: 58
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c16dde118aa3e408279d2a29013386
+      internalID: 105472830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_49
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 512
+        width: 30
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4454bde43658047a2f066852f05ddd
+      internalID: 189850665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_50
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 512
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314ae4146d8042e40b9295e7ad180bce
+      internalID: -1642301917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_51
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 512
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4372364226f90d044a99e9fddbd39783
+      internalID: 973021215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_52
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 512
+        width: 30
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dc6ca71cabef5478235d92418a7633
+      internalID: 1657651950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_53
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 512
+        width: 30
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2903bf7bafb52468d0970bd28ff48e
+      internalID: -1872547949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 448
+        width: 34
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832d1bd467199c440af2862bc651fef4
+      internalID: -340909422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_55
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 448
+        width: 50
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdfae5d496c7fc40b11b506dca0de15
+      internalID: 1539526199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_56
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 448
+        width: 50
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dbe935be674134388b06b897384d12
+      internalID: 657134411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 448
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f367738c0eb5bc4380baa9a1998952b
+      internalID: 169229431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_58
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 448
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06cfca1c1295fe4f8074ba432294ba1
+      internalID: 1360929413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_59
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 448
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3a656444657814dba2b0b48c724914
+      internalID: -940387927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_60
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 448
+        width: 44
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0e2ac6d8a148041b3c35ee6744d92a
+      internalID: -821727826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_61
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 448
+        width: 54
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87957688fa0a1d7469b53d1ae0e25577
+      internalID: -1531891913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_62
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 454
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5ab7c7806dcf240b0c872cb7c43bb4
+      internalID: -426097502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_63
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 448
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959aea19263762946acfeae19ab1bf42
+      internalID: -1389429680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_64
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 448
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac944066fb9863429e1a6ca348b55ef
+      internalID: -1471099154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_65
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 448
+        width: 26
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f453f0301cae47b41b2cc0128ddcd645
+      internalID: -498015049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_66
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 448
+        width: 46
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bfa312787cdb04f8daef9c852c51e4
+      internalID: -988362465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_67
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 448
+        width: 54
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e512f217d82dce43b21f7c6e30f4162
+      internalID: -142443277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_68
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 448
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d4c1437e35129459189bd1040b63df
+      internalID: -2080243183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_69
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 452
+        width: 42
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863905856d5ecf44c8f8fe58630dba3a
+      internalID: -364022988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_70
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 448
+        width: 54
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c7bed1e6904404583813493c1519c8
+      internalID: -1996250236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_71
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 452
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2395e3ad5d669c41912960cbde7ffd3
+      internalID: 1285053252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_72
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 388
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8a8bfa5a7cbd14b822b7f1d75c898e
+      internalID: -1499767713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_73
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 388
+        width: 42
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb8f8cf5a8bca8468d27e12c77de42e
+      internalID: 1315531415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_74
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 384
+        width: 50
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe7289314620034faff7255e2063baf
+      internalID: -845351356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_75
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 384
+        width: 50
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8dc5427d3629f479956d7f24a052f0
+      internalID: -1817642052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_76
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 384
+        width: 22
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35b88fd404e56c49be927757aca0c38
+      internalID: -1514540740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_77
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 384
+        width: 34
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90941e14b684926448bef24330ee0786
+      internalID: 1885756313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_78
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 384
+        width: 30
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a848024345c334047b521ac7378cea13
+      internalID: 640540454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_79
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 384
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9254c836d2df1854cbb419fc591d006e
+      internalID: 1373956865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_80
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 388
+        width: 34
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52624766f67ffb24a90bc77169abb222
+      internalID: -963809366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_81
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 388
+        width: 54
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12304223b412274da0536c72eeb6590
+      internalID: 1408043278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_82
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 384
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0655f57ee19974bb298e088b3f44a9
+      internalID: -284071100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_83
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 384
+        width: 38
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f143790486cd0740a31881dbf10ee96
+      internalID: 432031312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_84
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 384
+        width: 56
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2485fe34c0732214e93929e92a5da2a0
+      internalID: -421229726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_85
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 384
+        width: 38
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2705930065eed4d8c35b85751c71ae
+      internalID: 281783701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_86
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 384
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6db96e33c5319478fccad5ac8aa50d
+      internalID: 1329315783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_87
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 384
+        width: 40
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f7ad4c4afe3554aa672d81aa188bfe
+      internalID: 331678024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_88
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 384
+        width: 50
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd613b37333add4e8b0d53ee0d25b4f
+      internalID: 1383613486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_89
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 384
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694ed2652d667dc44b54a08d74ded286
+      internalID: 1503516175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_90
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 324
+        width: 54
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfab629ad0bdc844b00ea27f418acef
+      internalID: 640217383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_91
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 360
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb89b7dc87430594382641b9af503e6c
+      internalID: 2090584998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_92
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 320
+        width: 44
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442e2c0381b74c147ba315a1bc7510de
+      internalID: 1156811780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_93
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 320
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3effb214ac3f141bad93db7807ca63
+      internalID: -892274416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_94
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 320
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102f90d3b20e7ac4985b575c2546ca4d
+      internalID: 1495778153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_95
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 320
+        width: 44
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09f01c3ce011374fba50e7588b7ea38
+      internalID: 1660537252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_96
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 320
+        width: 48
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef383cad0bc1db42a81c89845f7ff18
+      internalID: -1189969081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_97
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 320
+        width: 48
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69c62445c025bb489ef5a2a84565ee4
+      internalID: 1928380092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_98
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 320
+        width: 36
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae99060a613a054fa040606bb0a6512
+      internalID: -485384077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_99
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 324
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b821f74ccef6fb40be7fbc0b9946516
+      internalID: 830004503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_100
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 350
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1bae2bf7e9dde409cae39554be22b8
+      internalID: 1284656040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_101
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 324
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f1bb3d4f2a20b4babfd9c8192aa8ce
+      internalID: 1508851290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_102
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 320
+        width: 42
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75891d24b8f44f479f4df1e23b3875c
+      internalID: -993321045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_103
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 320
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc64c87ac88cad342b3c5797ec46c931
+      internalID: -1002130657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_104
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 320
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1af46d41c1db74eb39949487dc3ab9
+      internalID: 1112272433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_105
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 320
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed53712f758ff147a29ef1c16454f01
+      internalID: -287380663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_106
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 320
+        width: 42
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1e7b50d3c985c40b302c00fd3b48b0
+      internalID: 1488906606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_107
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 320
+        width: 34
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07fd6a3bbbcd0546b60a4d3412bd51a
+      internalID: -1655208569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_108
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 346
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82b1b2654ac537408cb2cdc8f605ecd
+      internalID: 1777824147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_109
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 320
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bafabe928c32744abe9d55e9edbd969
+      internalID: 441740483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_110
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 320
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06fdf1c3842e8141863c6c8db7ff880
+      internalID: 1106833092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_111
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 308
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b10d90cb4251994a9380c5f7ebefb34
+      internalID: 743184699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_112
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 260
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29059ce8c49430949b3586057428d573
+      internalID: 1120234156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_113
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 288
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4127844887e9ab644a592b3b85aa614d
+      internalID: 2138048400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_114
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 292
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b683677608086498553b29fa07ea4f
+      internalID: 2123608767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_115
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 298
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f3cc6cc6a309141b423af05ee078bb
+      internalID: 469596856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_116
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 266
+        width: 50
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664700a68ddea2848a3975aca80a3a95
+      internalID: 1128776276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_117
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 260
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f477c19dc04264aa779c63cbb9a800
+      internalID: 657543455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_118
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 260
+        width: 46
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60dcaf1967a8d644a33d7e2e8199d87
+      internalID: -321971807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_119
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 256
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c421fe2f41e25f64b8320debae413b70
+      internalID: 1560549421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_120
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 256
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681f91cdbf06a8144880a7f590997254
+      internalID: 1701658552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_121
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 256
+        width: 50
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35abd8e1c1b5c2c4d9cbdc4ad2379e89
+      internalID: 1106525479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_122
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 256
+        width: 42
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5f111138378c34c9080d38fa23cbf6
+      internalID: 885912580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_123
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 256
+        width: 42
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b676ef779681de4e98ffb022f6eadd6
+      internalID: 2029204600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_124
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 262
+        width: 36
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f56df11bfd9a1748ab7142f02c70f70
+      internalID: -1633754251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_125
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 260
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6ae010e49c2964ab01f603964c558a
+      internalID: -1842791330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_126
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 262
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffe120c79245264483349b5e5d16d66
+      internalID: 1045425940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_127
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 260
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d5a970f25a4db44875f17ae6daddda
+      internalID: 826484812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_128
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 256
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115043013c7cc4640b257bd45c5dd9ea
+      internalID: 1769858299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_129
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 256
+        width: 46
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7389c306a2fe1429d159a25bb9578f
+      internalID: 1983694965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_130
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 256
+        width: 38
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d54930a27509974f8c2531d43f45f6b
+      internalID: 636848419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_131
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 256
+        width: 36
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a718186320518034782c4ad21d31fde9
+      internalID: 536429018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_132
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 256
+        width: 44
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c57090a7b0b564a90c84a19d54af2e
+      internalID: -2081732645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_133
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 260
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf69758151527154a802f1d92d62da93
+      internalID: 792876689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_134
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 256
+        width: 40
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b34592b44b94b44ac45f1ce0f328ba
+      internalID: -575782783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_135
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 256
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a4e6ded563e47439554549e2fda85a
+      internalID: 1925875764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_136
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 192
+        width: 50
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5d815fe8f73d8458a969fd87ad0742
+      internalID: -1073631968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_137
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 192
+        width: 38
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd0023dc1f519e429ecfb6af56dda85
+      internalID: -327981389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_138
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 192
+        width: 42
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b4c1a2f993bb1449946fde6e51263c
+      internalID: 1914191118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_139
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 192
+        width: 60
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bea589e667807429137965739a2a12
+      internalID: -1194999590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_140
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 192
+        width: 46
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b362f020c7e499448b909868c760f6d
+      internalID: -1835783353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_141
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6693786939b3e29439f7dd0af1979db3
+      internalID: 1878460701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_142
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 192
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a8dbe63586cdf4ca2ea6725066aa3b
+      internalID: -1266740222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_143
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 192
+        width: 38
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa48ab6db80ecb54d8e21cfd179e4838
+      internalID: -220396944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_144
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 192
+        width: 34
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3efa19dfc1d8a4dbf1baa724e111bb
+      internalID: 1928011469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_145
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 192
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5f8b5cde796014ba386f0abf84995a
+      internalID: 991307433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_146
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 198
+        width: 26
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7c7d36f08476949a9a10caff14cf5e
+      internalID: 1214488713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_147
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 192
+        width: 30
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d1663a53d187f4c82b6017a8362752
+      internalID: 298058111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_148
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 192
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb4f8fb84f5a63448dd5e4e3b2706f2
+      internalID: -60903812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_149
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 192
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b641b3335d95140a166486b1ba8241
+      internalID: -875474515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_150
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 192
+        width: 52
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f26d21b0487f1458aa0860af7ea5dc
+      internalID: -2063202942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_151
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 196
+        width: 58
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f77e00381d4bb74e8ad9f4ee293a8d6
+      internalID: -950484978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_152
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 192
+        width: 54
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4cd563fd79334438e0959fe9f7ddd9
+      internalID: 825885846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_153
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 196
+        width: 58
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533936dd5d5defb458900f6654b9a770
+      internalID: 263656728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_154
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 132
+        width: 58
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cc013094d95094dbd0c16e3ea923cb
+      internalID: 1489925366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_155
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 132
+        width: 58
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c754e19be1557e941b9c475ebb7f3fc6
+      internalID: -770062876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_156
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 128
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b018836d5d959ec4b810efee05c26372
+      internalID: 51135765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_157
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 128
+        width: 48
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2fe3e4a902ae14d8739ed1a55a8d86
+      internalID: -1632070310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_158
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 132
+        width: 54
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7285f4a736d6a4fac883a2cc900b1b
+      internalID: 1264898300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_159
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 128
+        width: 46
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e071ed8dd4d4ee7458daf0b195cf2182
+      internalID: -1380533461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_160
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 132
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f34c751df07b664496164e73571c8fb
+      internalID: -1542757238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_161
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd199b16d0ab7f4c95b87244a8238c1
+      internalID: 1627916343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_162
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 68
+        width: 48
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76350207c37ff2449b7564ac2c093e6
+      internalID: -1760434957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_163
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 64
+        width: 24
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd43568e495213744b618611da87fa74
+      internalID: 1112193105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_164
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 32
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97aa05a1ca820b49be5983057b1863d
+      internalID: -679779176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_165
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e479fb4f96823c54b944ae2b10ff3bae
+      internalID: 2017240681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_166
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 64
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fc3b24707ddf5439b3d88db08260a5
+      internalID: -1304813360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_167
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 68
+        width: 46
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12602ac0a5fb8734e932cffa7c51ced7
+      internalID: 1512270934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_168
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 68
+        width: 58
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93867ffaced64c4197f60ffb1c44c1b
+      internalID: -862340120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_169
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 64
+        width: 36
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ef27e317a79d429e843dee3cfa524
+      internalID: -1493167076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_170
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 64
+        width: 42
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40531cf4cf16ee248b5bfd86caffaf70
+      internalID: -1789201412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_171
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 64
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecf58412ec19a14b87610e46418152d
+      internalID: 1909349743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_172
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 64
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f3cf77fe25a174c8e3edf84859f194
+      internalID: 2115082879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_173
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 64
+        width: 38
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946c730e99c370844b7dffb3ea79439e
+      internalID: 1437625798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_174
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 64
+        width: 56
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26871d6f1521408489f59bea10a36204
+      internalID: -1234121014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_175
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 64
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6472e0e4cd1f3b24b8398ce66d314570
+      internalID: 1086700667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_176
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 64
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759bb1fb13bb90f46ae259274c38a0ef
+      internalID: 1926688992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_177
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 64
+        width: 46
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998b94bfb97108f4bb8350a7a6b1790b
+      internalID: -1329798861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_178
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 68
+        width: 46
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65429c3f4de45ab4397a3aee9fdb2bb1
+      internalID: -1444121820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_179
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a148053b4dd5b4f98777fe3ecfe4af
+      internalID: -1667776068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_180
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a932fbdeaa6f2942b272996a9b4f6bc
+      internalID: 1196914955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_181
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 42
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d0dbcd4faee9d48b0c0e5e2676a9c4
+      internalID: 366515704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_182
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 60
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ed07e0eef8c12489385365aeffb664
+      internalID: -997610370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_0: 1149465669
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_1: 565948531
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_10: 424057766
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_100: 1284656040
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_101: 1508851290
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_102: -993321045
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_103: -1002130657
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_104: 1112272433
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_105: -287380663
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_106: 1488906606
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_107: -1655208569
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_108: 1777824147
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_109: 441740483
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_11: -886819950
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_110: 1106833092
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_111: 743184699
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_112: 1120234156
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_113: 2138048400
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_114: 2123608767
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_115: 469596856
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_116: 1128776276
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_117: 657543455
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_118: -321971807
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_119: 1560549421
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_12: 1489285544
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_120: 1701658552
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_121: 1106525479
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_122: 885912580
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_123: 2029204600
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_124: -1633754251
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_125: -1842791330
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_126: 1045425940
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_127: 826484812
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_128: 1769858299
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_129: 1983694965
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_13: -2108750058
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_130: 636848419
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_131: 536429018
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_132: -2081732645
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_133: 792876689
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_134: -575782783
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_135: 1925875764
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_136: -1073631968
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_137: -327981389
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_138: 1914191118
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_139: -1194999590
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_14: -1563110449
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_140: -1835783353
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_141: 1878460701
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_142: -1266740222
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_143: -220396944
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_144: 1928011469
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_145: 991307433
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_146: 1214488713
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_147: 298058111
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_148: -60903812
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_149: -875474515
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_15: 1138736420
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_150: -2063202942
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_151: -950484978
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_152: 825885846
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_153: 263656728
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_154: 1489925366
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_155: -770062876
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_156: 51135765
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_157: -1632070310
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_158: 1264898300
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_159: -1380533461
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_16: 1768310359
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_160: -1542757238
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_161: 1627916343
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_162: -1760434957
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_163: 1112193105
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_164: -679779176
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_165: 2017240681
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_166: -1304813360
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_167: 1512270934
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_168: -862340120
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_169: -1493167076
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_17: 1669048532
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_170: -1789201412
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_171: 1909349743
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_172: 2115082879
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_173: 1437625798
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_174: -1234121014
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_175: 1086700667
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_176: 1926688992
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_177: -1329798861
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_178: -1444121820
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_179: -1667776068
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_18: 25980355
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_180: 1196914955
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_181: 366515704
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_182: -997610370
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_19: -1647112270
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_2: -1633968603
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_20: 1052849418
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_21: 653690692
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_22: -1592704586
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_23: -459318938
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_24: 280709406
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_25: -935884350
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_26: 2004227167
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_27: -1796786068
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_28: 1216484245
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_29: -1820413470
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_3: 1179703976
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_30: -1484975617
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_31: 839585998
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_32: 1636529149
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_33: -1258903877
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_34: 1857323589
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_35: 1886017746
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_36: 847105174
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_37: -593290294
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_38: -967423291
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_39: -1115760236
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_4: 1708674311
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_40: -620937261
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_41: -381387711
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_42: -682259964
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_43: 741316208
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_44: -952385003
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_45: -1714211373
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_46: -962404880
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_47: 453215647
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_48: 105472830
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_49: 189850665
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_5: -318846883
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_50: -1642301917
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_51: 973021215
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_52: 1657651950
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_53: -1872547949
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_54: -340909422
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_55: 1539526199
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_56: 657134411
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_57: 169229431
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_58: 1360929413
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_59: -940387927
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_6: -1706707030
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_60: -821727826
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_61: -1531891913
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_62: -426097502
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_63: -1389429680
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_64: -1471099154
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_65: -498015049
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_66: -988362465
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_67: -142443277
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_68: -2080243183
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_69: -364022988
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_7: -370356726
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_70: -1996250236
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_71: 1285053252
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_72: -1499767713
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_73: 1315531415
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_74: -845351356
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_75: -1817642052
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_76: -1514540740
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_77: 1885756313
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_78: 640540454
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_79: 1373956865
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_8: -2064434638
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_80: -963809366
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_81: 1408043278
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_82: -284071100
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_83: 432031312
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_84: -421229726
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_85: 281783701
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_86: 1329315783
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_87: 331678024
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_88: 1383613486
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_89: 1503516175
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_9: 1001534435
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_90: 640217383
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_91: 2090584998
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_92: 1156811780
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_93: -892274416
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_94: 1495778153
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_95: 1660537252
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_96: -1189969081
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_97: 1928380092
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_98: -485384077
+      pokemon_red__blue__yellow_and_green_ow_by_wolfang62_decg313_99: 830004503
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
