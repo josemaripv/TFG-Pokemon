@@ -10,8 +10,6 @@ public class MiembrosEquipoUI : MonoBehaviour
     [SerializeField] TMP_Text levelText;
     [SerializeField] HPBar hpBar;
 
-    [SerializeField] Color highlightedColor;
-
     Pokemon _pokemon;
 
     public void SetData(Pokemon pokemon)
@@ -28,7 +26,7 @@ public class MiembrosEquipoUI : MonoBehaviour
     {
         if (selected)
         {
-            nameText.color = highlightedColor;
+            nameText.color = GlobalSettings.i.HighlightColor;
         }
         else
             nameText.color = Color.black;

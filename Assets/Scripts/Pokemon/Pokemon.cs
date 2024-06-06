@@ -48,6 +48,7 @@ public class Pokemon
     public bool HpChanged { get;  set; }
 
     public event System.Action OnStatusChanged;
+    public event System.Action OnHPChanged;
     public void Init()
     {
 
@@ -167,6 +168,13 @@ public class Pokemon
 
             Debug.Log($"{stat} has been bossted to {StatBoosts[stat]}");
         }
+    }
+
+
+    public void Heal()
+    {
+        HP = MaxHp;
+        OnHPChanged?.Invoke();
     }
 
 

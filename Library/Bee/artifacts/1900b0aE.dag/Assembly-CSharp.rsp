@@ -395,6 +395,7 @@
 "Assets/Scripts/Battle/SistemaBatalla.cs"
 "Assets/Scripts/Character/Character.cs"
 "Assets/Scripts/Character/CharacterAnimator.cs"
+"Assets/Scripts/Character/Healer.cs"
 "Assets/Scripts/Character/MovimientoJugador.cs"
 "Assets/Scripts/Character/NPCController.cs"
 "Assets/Scripts/Character/TrainerController.cs"
@@ -408,6 +409,7 @@
 "Assets/Scripts/Gameplay/Dialog.cs"
 "Assets/Scripts/Gameplay/DialogManager.cs"
 "Assets/Scripts/Gameplay/GameLayers.cs"
+"Assets/Scripts/Gameplay/GlobalSettings.cs"
 "Assets/Scripts/Gameplay/Interactable.cs"
 "Assets/Scripts/Gameplay/LongGrass.cs"
 "Assets/Scripts/Gameplay/MapArea.cs"
@@ -423,6 +425,7 @@
 "Assets/Scripts/Saving/SavableEntity.cs"
 "Assets/Scripts/Saving/SavingSystem.cs"
 "Assets/Scripts/SceneManagement/Portal.cs"
+"Assets/Scripts/UI/MenuController.cs"
 "Assets/Scripts/Util/SpriteAnimator.cs"
 -langversion:9.0
 

@@ -1,23 +1,31 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public enum GameState {  FreeRoam, Battle, Dialog, Cutscene, Paused }
+public enum GameState { FreeRoam, Battle, Dialog, Menu, PartyScreen, Cutscene, Paused }
+
 public class GameController : MonoBehaviour
 {
     [SerializeField] MovimientoJugador playerController;
     [SerializeField] SistemaBatalla battleSystem;
     [SerializeField] Camera worldCamera;
+    [SerializeField] PantallaEquipo partyScreen;
 
     GameState state;
 
     GameState stateBeforePause;
+
+    MenuController menuController;
 
     public static GameController Instance { get; private set; }
 
     private void Awake()
     {
         Instance = this;
+
+        menuController = GetComponent<MenuController>();
 
         PokemonDB.Init();
         MoveDB.Init();
@@ -26,10 +34,9 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        
         battleSystem.onBattleOver += EndBattle;
 
-        
+        partyScreen.Init();
 
         DialogManager.Instance.OnShowDialog += () =>
         {
@@ -38,10 +45,16 @@ public class GameController : MonoBehaviour
 
         DialogManager.Instance.OnCloseDialog += () =>
         {
-            if (state == GameState.Dialog) 
+            if (state == GameState.Dialog)
                 state = GameState.FreeRoam;
         };
 
+        menuController.onBack += () =>
+        {
+            state = GameState.FreeRoam;
+        };
+
+        menuController.onMenuSelected += OnMenuSelected;
     }
 
     public void PauseGame(bool pause)
@@ -101,7 +114,6 @@ public class GameController : MonoBehaviour
         state = GameState.FreeRoam;
         battleSystem.gameObject.SetActive(false);
         worldCamera.gameObject.SetActive(true);
-
     }
 
     private void Update()
@@ -110,15 +122,11 @@ public class GameController : MonoBehaviour
         {
             playerController.HandleUpdate();
 
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Input.GetKeyDown(KeyCode.Return))
             {
-                SavingSystem.i.Save("saveSlot1");
+                menuController.OpenMenu();
+                state = GameState.Menu;
             }
-            if (Input.GetKeyDown(KeyCode.L))
-            {
-                SavingSystem.i.Load("saveSlot1");
-            }
-
         }
         else if (state == GameState.Battle)
         {
@@ -128,9 +136,72 @@ public class GameController : MonoBehaviour
         {
             DialogManager.Instance.HandleUpdate();
         }
+        else if (state == GameState.Menu)
+        {
+            menuController.HandleUpdate();
+        }
+        else if (state == GameState.PartyScreen)
+        {
+            Action onSelected = () => { };
 
-        
+            Action onBack = () =>
+            {
+                partyScreen.gameObject.SetActive(false);
+                state = GameState.FreeRoam;
+            };
 
+            partyScreen.HandleUpdate(onSelected, onBack);
+        }
+
+        // Verificar si todos los Pokémon del jugador están fainted
+        if (state != GameState.Battle && AllPlayerPokemonFainted())
+        {
+            // Terminar el juego
+            EndGame();
+        }
     }
 
+    // Método para verificar si todos los Pokémon del jugador están fainted
+    private bool AllPlayerPokemonFainted()
+    {
+        var playerParty = playerController.GetComponent<EquipoPokemon>().Pokemons;
+        foreach (var pokemon in playerParty)
+        {
+            if (pokemon.HP > 0)
+            {
+                // Al menos un Pokémon tiene HP mayor que 0, el juego no ha terminado
+                return false;
+            }
+        }
+        // Todos los Pokémon están fainted
+        return true;
+    }
+
+    // Método para terminar el juego
+    private void EndGame()
+    {
+        // Cargar la escena de Game Over
+        SceneManager.LoadScene("GameOver");
+    }
+
+
+    void OnMenuSelected(int selectedItem)
+    {
+        if (selectedItem == 0)
+        {
+            partyScreen.gameObject.SetActive(true);
+            partyScreen.SetPartyData(playerController.GetComponent<EquipoPokemon>().Pokemons);
+            state = GameState.PartyScreen;
+        }
+        else if (selectedItem == 1)
+        {
+            SavingSystem.i.Save("saveSlot1");
+            state = GameState.FreeRoam;
+        }
+        else if (selectedItem == 2)
+        {
+            SavingSystem.i.Load("saveSlot1");
+            state = GameState.FreeRoam;
+        }
+    }
 }

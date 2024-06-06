@@ -19,10 +19,10 @@ public class SistemaBatalla : MonoBehaviour
     public event Action<bool> onBattleOver;
 
     EstadoBatalla state;
-    EstadoBatalla? prevState;
+    
     int currentAction;
     int currentMove;
-    int currentMember;
+
     bool aboutToUseChoice = true;
 
     EquipoPokemon playerParty;
@@ -118,6 +118,7 @@ public class SistemaBatalla : MonoBehaviour
 
     void OpenPartyScreen()
     {
+        partyScreen.CalledFrom = state;
         state = EstadoBatalla.PartyScreen;
         partyScreen.SetPartyData(playerParty.Pokemons);
         partyScreen.gameObject.SetActive(true);
@@ -171,7 +172,7 @@ public class SistemaBatalla : MonoBehaviour
         {
             if (playerAction == BattleAction.SwitchPokemon)
             {
-                var selectedPokemon = playerParty.Pokemons[currentMember];
+                var selectedPokemon = partyScreen.SelectedMember;
                 state = EstadoBatalla.Busy;
                 yield return SwitchPokemon(selectedPokemon);
             }
@@ -437,7 +438,7 @@ public class SistemaBatalla : MonoBehaviour
             else if (currentAction == 2)
             {
                 // Pokemon
-                prevState = state;
+                
                 OpenPartyScreen();
             }
             else if (currentAction == 3)
@@ -484,22 +485,10 @@ public class SistemaBatalla : MonoBehaviour
 
     void HandlePartySelection()
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-            ++currentMember;
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
-            --currentMember;
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
-            currentMember += 2;
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
-            currentMember -= 2;
 
-        currentMember = Mathf.Clamp(currentMember, 0, playerParty.Pokemons.Count - 1);
-
-        partyScreen.UpdateMemberSelection(currentMember);
-
-        if (Input.GetKeyDown(KeyCode.Z))
+        Action onSelected = () =>
         {
-            var selectedMember = playerParty.Pokemons[currentMember];
+            var selectedMember = partyScreen.SelectedMember;
             if (selectedMember.HP <= 0)
             {
                 partyScreen.SetMessageText("No puedes enviar un pokemon debilitado");
@@ -513,21 +502,20 @@ public class SistemaBatalla : MonoBehaviour
 
             partyScreen.gameObject.SetActive(false);
 
-            if (prevState == EstadoBatalla.ActionSelection)
+            if (partyScreen.CalledFrom == EstadoBatalla.ActionSelection)
             {
-                prevState = null;
                 StartCoroutine(RunTurns(BattleAction.SwitchPokemon));
             }
             else
             {
                 state = EstadoBatalla.Busy;
-                StartCoroutine(SwitchPokemon(selectedMember));
+                bool isTrainerAboutToUse = partyScreen.CalledFrom == EstadoBatalla.AboutToUse;
+                StartCoroutine(SwitchPokemon(selectedMember, isTrainerAboutToUse));
             }
+            partyScreen.CalledFrom = null;
+        };
 
-
-            
-        }
-        else if (Input.GetKeyDown(KeyCode.X))
+        Action onBack = () =>
         {
             if (playerUnit.Pokemon.HP <= 0)
             {
@@ -538,15 +526,19 @@ public class SistemaBatalla : MonoBehaviour
 
             partyScreen.gameObject.SetActive(false);
 
-            if (prevState == EstadoBatalla.AboutToUse)
+            if (partyScreen.CalledFrom == EstadoBatalla.AboutToUse)
             {
-                prevState = null;
+
                 StartCoroutine(SendNextTrainerPokemon());
             }
 
             else
                 ActionSelection();
-        }
+
+            partyScreen.CalledFrom = null;
+        };
+
+        partyScreen.HandleUpdate(onSelected, onBack);
     }
 
     void HandleAboutToUse()
@@ -561,7 +553,7 @@ public class SistemaBatalla : MonoBehaviour
             dialogBox.EnableChoiceBox(false);
             if (aboutToUseChoice == true)
             {
-                prevState = EstadoBatalla.AboutToUse;
+                
                 OpenPartyScreen();
             }
             else
@@ -576,7 +568,7 @@ public class SistemaBatalla : MonoBehaviour
         }
     }
 
-    IEnumerator SwitchPokemon (Pokemon newPokemon)
+    IEnumerator SwitchPokemon (Pokemon newPokemon, bool isTrainerAboutToUse=false)
     {
         if (playerUnit.Pokemon.HP > 0) { 
 
@@ -590,15 +582,11 @@ public class SistemaBatalla : MonoBehaviour
         dialogBox.SetMovesNames(newPokemon.Moves);
         yield return dialogBox.TypeDialog($"¡Adelante {newPokemon.Base.Name}!");
 
-        if (prevState == null)
-        {
-            state = EstadoBatalla.RunningTurn;
-        }
-        else if (prevState == EstadoBatalla.AboutToUse)
-        {
-            prevState = null;
+        if (isTrainerAboutToUse)
             StartCoroutine(SendNextTrainerPokemon());
-        }
+        else
+            state = EstadoBatalla.RunningTurn;
+
         
 
     }

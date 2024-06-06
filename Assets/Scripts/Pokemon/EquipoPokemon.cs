@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,14 @@ public class EquipoPokemon : MonoBehaviour
 {
     [SerializeField] List<Pokemon> pokemons;
 
+    public event Action OnUpdated;
+
     public List<Pokemon> Pokemons
     {
         get { return pokemons; }
-        set { pokemons = value; }
+        set { pokemons = value;
+            OnUpdated?.Invoke();
+        }
     }
 
     private void Start()
@@ -21,8 +26,15 @@ public class EquipoPokemon : MonoBehaviour
         }
     }
 
+
+    public void PartyUpdated()
+    {
+        OnUpdated?.Invoke();
+    }
     public Pokemon GetHealthyPokemon() 
     { 
         return pokemons.Where(x => x.HP > 0).FirstOrDefault();
     }
+
+    
 }

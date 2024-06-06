@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class DialogosCombate : MonoBehaviour
 {
     [SerializeField] int lettersPerSecond;
-    [SerializeField] Color highlightedColor;
+    
 
     [SerializeField] TMP_Text dialogText;
     [SerializeField] GameObject actionSelector;
@@ -24,6 +24,13 @@ public class DialogosCombate : MonoBehaviour
 
     [SerializeField] TMP_Text yesText;
     [SerializeField] TMP_Text noText;
+
+    Color highlightedColor;
+
+    private void Start()
+    {
+        highlightedColor = GlobalSettings.i.HighlightColor;
+    }
 
     public void SetDialog(string dialog)
     {
