@@ -159,8 +159,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pokemons:
-  - _base: {fileID: 11400000, guid: b02c49f85d3f2014ca971cd4a89cd78a, type: 2}
-    level: 5
+  - _base: {fileID: 11400000, guid: 912afba380f16c941af025ad68a7e4bb, type: 2}
+    level: 19
 --- !u!114 &27265434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16307,7 +16307,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf00000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2

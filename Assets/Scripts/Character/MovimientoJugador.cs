@@ -57,19 +57,29 @@ public class MovimientoJugador : MonoBehaviour, ISavable
 
     private void OnMoveOver()
     {
-        var colliders = Physics2D.OverlapCircleAll(transform.position , 0.2f, GameLayers.i.TriggerableLayers);
+        var colliders = Physics2D.OverlapCircleAll(transform.position, 0.2f, GameLayers.i.TriggerableLayers);
 
         foreach (var collider in colliders)
         {
             var triggerable = collider.GetComponent<PlayerTriggerable>();
-            if (triggerable != null)
+
+            if (collider.gameObject.layer == GameLayers.i.GrassLayer) // Si la capa de colisión es GrassLayer
             {
                 character.Animator.IsMoving = true;
-                triggerable.OnPlayerTriggered(this);
-                break;
+                
+            }
+            else // Si no es GrassLayer
+            {
+                if (triggerable != null)
+                {
+                    character.Animator.IsMoving = false;
+                    triggerable.OnPlayerTriggered(this);
+                    break;
+                }
             }
         }
     }
+
 
     public object CaptureState()
     {

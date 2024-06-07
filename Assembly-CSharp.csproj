@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Character\MovimientoJugador.cs" />
     <Compile Include="Assets\Scripts\Character\TrainerController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\DialogManager.cs" />
+    <Compile Include="Assets\BlinkingText.cs" />
     <Compile Include="Assets\Scripts\Saving\SavingSystem.cs" />
     <Compile Include="Assets\Scripts\Pokemon\PokemonBase.cs" />
     <Compile Include="Assets\Scripts\Gameplay\GlobalSettings.cs" />

@@ -38205,7 +38205,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf00000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
@@ -48828,6 +48828,85 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1996786070
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1244623263329594959, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1199331180, guid: e2722ee85c82ff04f9cae119302fdd52, type: 3}
+    - target: {fileID: 3406211620193200485, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_Name
+      value: NPC_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888769522424534432, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080391472651337885, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: walkDownSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: -1199331180, guid: e2722ee85c82ff04f9cae119302fdd52, type: 3}
+    - target: {fileID: 7377652248427652756, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 56396f2f2600c384cb74dd4bb7a917dd, type: 3}
+    - target: {fileID: 7377652248427652756, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: dialog.lines.Array.data[0]
+      value: "\xA1Jose Mari! Qu\xE9 bueno verte. Espero que tu aventura est\xE9 siendo
+        emocionante."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377652248427652756, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
+      propertyPath: dialog.lines.Array.data[1]
+      value: "Recuerda siempre tratar a tus Pok\xE9mon con respeto y cari\xF1o. Son
+        tus amigos y compa\xF1eros en esta traves\xEDa."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b8e1ef99f0cffe4ba4e6ef4e064bc18, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -48835,3 +48914,4 @@ SceneRoots:
   - {fileID: 647934562}
   - {fileID: 1498338910}
   - {fileID: 645119328}
+  - {fileID: 1996786070}
