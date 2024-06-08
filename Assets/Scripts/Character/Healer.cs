@@ -6,8 +6,6 @@ public class Healer : MonoBehaviour
 {
     public void Heal(Transform initiator, Dialog dialog, Sprite characterSprite, EquipoPokemon equipoPokemon)
     {
-        // Aquí podrías agregar un diálogo o efecto visual si lo deseas
-        // Por simplicidad, vamos a imprimir un mensaje en la consola
         Debug.Log("¡Tus Pokémon han sido curados!");
 
         // Acceder al equipo Pokémon del jugador y curar a todos los Pokémon
@@ -17,7 +15,13 @@ public class Healer : MonoBehaviour
             foreach (Pokemon pokemon in equipoPokemon.Pokemons)
             {
                 pokemon.Heal();
+                // Restaurar los PP de los movimientos
+                foreach (Movimiento move in pokemon.Moves)
+                {
+                    move.RestorePP();
+                }
             }
         }
     }
+
 }

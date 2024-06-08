@@ -35,11 +35,15 @@ public class SistemaBatalla : MonoBehaviour
 
     int escapeAttempts;
 
+    private AudioManager audioManager;
+
+
     public void StartBattle(EquipoPokemon playerParty, Pokemon wildPokemon)
     {
         this.playerParty = playerParty;
         this.wildPokemon = wildPokemon;
         isTrainerBattle = false;
+        AudioManager.Instance.PlayBattleMusic();
         StartCoroutine(SetupBattle());
     }
 
@@ -52,8 +56,10 @@ public class SistemaBatalla : MonoBehaviour
         player = playerParty.GetComponent<MovimientoJugador>();
         trainer = trainerParty.GetComponent<TrainerController>();
 
+        AudioManager.Instance.PlayBattleMusic();
         StartCoroutine(SetupBattle());
     }
+
 
     public IEnumerator SetupBattle()
     {
@@ -114,6 +120,8 @@ public class SistemaBatalla : MonoBehaviour
         state = EstadoBatalla.BattleOver;
         playerParty.Pokemons.ForEach(p => p.OnBattleOver());
         onBattleOver(won);
+        AudioManager.Instance.PlayMusicForCurrentScene(); // Agregar esta línea para volver a la música de la escena actual
+
     }
 
     void OpenPartyScreen()

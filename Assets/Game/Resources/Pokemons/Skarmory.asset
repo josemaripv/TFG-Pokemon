@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a9f9a19e51d7142992dfec77ad81ad, type: 3}
+  m_Name: Skarmory
+  m_EditorClassIdentifier: 
+  name: Skarmory
+  description: 
+  FrontSprite: {fileID: 21300000, guid: 33c0c911c4889a34c998c1388662c3be, type: 3}
+  BackSprite: {fileID: 21300000, guid: f47d3c18ff13ef14b9aec93b16cf6030, type: 3}
+  Type1: 17
+  Type2: 10
+  maxHp: 65
+  attack: 80
+  defense: 140
+  spAttack: 40
+  spDefense: 70
+  speed: 70
+  learnableMoves:
+  - movimientoBase: {fileID: 11400000, guid: 2b423194d0aa89a40856c95b6f27838e, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: d4f1abbd077830040b6c81d2cf02a6ce, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 139735e51a56a2e45bab320551ea5edd, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 22c1e6309658f394cbc3cf1e09cbd310, type: 2}
+    level: 50

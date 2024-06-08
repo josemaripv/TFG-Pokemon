@@ -12,13 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b08af2456893446b6b8a9db00e446a, type: 3}
   m_Name: Vine Whip
   m_EditorClassIdentifier: 
-  name: "L\xE1tigo Cepa"
+  name: Latigo Cepa
   description: 
   type: 5
   power: 45
   accuracy: 100
+  alwaysHits: 0
   pp: 20
+  priority: 0
   category: 0
   effects:
     boosts: []
+    status: 0
+    volatileStatus: 0
+  secondaryEffects: []
   target: 0

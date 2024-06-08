@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a9f9a19e51d7142992dfec77ad81ad, type: 3}
+  m_Name: Aggron
+  m_EditorClassIdentifier: 
+  name: Aggron
+  description: 
+  FrontSprite: {fileID: 21300000, guid: 7b4f5350d4157d74d815ef72b5dfcc85, type: 3}
+  BackSprite: {fileID: 21300000, guid: 4910e68495bb4194ab22d83ff6a78130, type: 3}
+  Type1: 17
+  Type2: 13
+  maxHp: 70
+  attack: 110
+  defense: 180
+  spAttack: 60
+  spDefense: 60
+  speed: 50
+  learnableMoves:
+  - movimientoBase: {fileID: 11400000, guid: b26245c9c2c872443b42d7d70bfce44b, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: e6d0a24f3734da340a33062f9795a556, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 7e49428a3ee2df640a87983fc2dbbd8a, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 05f727c4b46d3ef4aaf52c88458f1c05, type: 2}
+    level: 50

@@ -107,9 +107,11 @@ public class TrainerController : MonoBehaviour, Interactable, ISavable
     public void RestoreState(object state)
     {
         battleLost = (bool)state;
-        
-        if (battleLost)
+
+        if (battleLost && fov != null)
+        {
             fov.gameObject.SetActive(false);
+        }
     }
 
     public string Name

@@ -30,6 +30,12 @@ public class Movimiento
         };
         return saveData;
     }
+
+    // Método para restaurar los PP del movimiento al máximo disponible
+    public void RestorePP()
+    {
+        PP = movimientoBase.PP;
+    }
 }
 
 [Serializable]

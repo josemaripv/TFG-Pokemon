@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditorInternal;
 using UnityEngine;
 
 [System.Serializable]
@@ -174,8 +173,11 @@ public class Pokemon
     public void Heal()
     {
         HP = MaxHp;
+        Status = null; // Elimina cualquier condición de estado
+        VolatileStatus = null; // Elimina cualquier estado volátil
         OnHPChanged?.Invoke();
     }
+
 
 
     public int MaxHp { get; private set; }

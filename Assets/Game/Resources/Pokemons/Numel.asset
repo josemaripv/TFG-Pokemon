@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a9f9a19e51d7142992dfec77ad81ad, type: 3}
+  m_Name: Numel
+  m_EditorClassIdentifier: 
+  name: Numel
+  description: 
+  FrontSprite: {fileID: 21300000, guid: 7bc5b009ad12a874284aff4b44edc29c, type: 3}
+  BackSprite: {fileID: 21300000, guid: 6a54c40345ea9c441aa3932c8053c4a0, type: 3}
+  Type1: 2
+  Type2: 9
+  maxHp: 60
+  attack: 60
+  defense: 40
+  spAttack: 65
+  spDefense: 45
+  speed: 35
+  learnableMoves:
+  - movimientoBase: {fileID: 11400000, guid: 7ee5891977e8b9f4d8af141eab655d2f, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 6dd95fa13a091394dbed5d186b931ca4, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 7e49428a3ee2df640a87983fc2dbbd8a, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 41afc2b433ac13248bbd8dbf422e57da, type: 2}
+    level: 50

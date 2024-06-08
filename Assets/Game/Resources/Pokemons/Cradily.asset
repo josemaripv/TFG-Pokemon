@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a9f9a19e51d7142992dfec77ad81ad, type: 3}
+  m_Name: Cradily
+  m_EditorClassIdentifier: 
+  name: Cradily
+  description: 
+  FrontSprite: {fileID: 21300000, guid: f057a76110161c84797afb24a88eb2cb, type: 3}
+  BackSprite: {fileID: 21300000, guid: 2784371def5a57340b7c6b60308bf5e8, type: 3}
+  Type1: 13
+  Type2: 5
+  maxHp: 86
+  attack: 81
+  defense: 97
+  spAttack: 81
+  spDefense: 107
+  speed: 43
+  learnableMoves:
+  - movimientoBase: {fileID: 11400000, guid: f6f2699e9e64145408517f98d620404a, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: e6d0a24f3734da340a33062f9795a556, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 7e49428a3ee2df640a87983fc2dbbd8a, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 70aa4b57829063840ad4b2c89b14260b, type: 2}
+    level: 50

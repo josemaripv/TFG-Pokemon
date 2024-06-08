@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a9f9a19e51d7142992dfec77ad81ad, type: 3}
+  m_Name: Nidoqueen
+  m_EditorClassIdentifier: 
+  name: Nidoqueen
+  description: 
+  FrontSprite: {fileID: 21300000, guid: 2b33d5c3e52b8d442bd567f32d894c44, type: 3}
+  BackSprite: {fileID: 21300000, guid: 631c46f3e734a8245a181ead5cdb0e98, type: 3}
+  Type1: 8
+  Type2: 9
+  maxHp: 90
+  attack: 92
+  defense: 87
+  spAttack: 75
+  spDefense: 85
+  speed: 76
+  learnableMoves:
+  - movimientoBase: {fileID: 11400000, guid: 7ee5891977e8b9f4d8af141eab655d2f, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 1a3fc21e186fdaf4c8b751fa6530b04a, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: bee15b39f3a4e24468a4b3485e02a7d1, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 3cafe2979d5b13f42a3e404b0d37c1bb, type: 2}
+    level: 50

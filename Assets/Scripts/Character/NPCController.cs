@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,11 +21,16 @@ public class NPCController : MonoBehaviour, Interactable
     {
         character = GetComponent<Character>();
         healer = GetComponent<Healer>();
-        equipoPokemon = FindObjectOfType<EquipoPokemon>(); // Buscar el EquipoPokemon en la escena
+        equipoPokemon = FindObjectOfType<EquipoPokemon>();
     }
 
     public IEnumerator Interact(Transform initiator)
     {
+        if (healer != null && equipoPokemon != null)
+        {
+            healer.Heal(initiator, dialog, characterSprite, equipoPokemon);
+        }
+
         if (state == NPCState.Idle)
         {
             state = NPCState.Dialog;
@@ -36,14 +40,6 @@ public class NPCController : MonoBehaviour, Interactable
 
             idleTimer = 0f;
             state = NPCState.Idle;
-        }
-        else if (healer != null && equipoPokemon != null) // Comprueba si el equipoPokemon no es nulo
-        {
-            healer.Heal(initiator, dialog, characterSprite, equipoPokemon);
-        }
-        else
-        {
-            Debug.LogWarning("El jugador no tiene un equipo Pokémon o el curandero no está configurado correctamente.");
         }
     }
 

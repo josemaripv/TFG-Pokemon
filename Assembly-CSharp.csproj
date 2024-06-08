@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Data\MoveDB.cs" />
     <Compile Include="Assets\Scripts\Data\CondicionesDB.cs" />
     <Compile Include="Assets\Scripts\Battle\HPBar.cs" />
+    <Compile Include="Assets\Scripts\Audio\SceneAudioConfig.cs" />
     <Compile Include="Assets\Scripts\Pokemon\Condiciones.cs" />
     <Compile Include="Assets\Scripts\Gameplay\Interactable.cs" />
     <Compile Include="Assets\Scripts\SceneManagement\Portal.cs" />
@@ -75,10 +76,12 @@
     <Compile Include="Assets\Scripts\Battle\BattleUnit.cs" />
     <Compile Include="Assets\Scripts\Character\MovimientoJugador.cs" />
     <Compile Include="Assets\Scripts\Character\TrainerController.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Gameplay\DialogManager.cs" />
     <Compile Include="Assets\BlinkingText.cs" />
     <Compile Include="Assets\Scripts\Saving\SavingSystem.cs" />
     <Compile Include="Assets\Scripts\Pokemon\PokemonBase.cs" />
+    <Compile Include="Assets\Scripts\BotonesPantalla.cs" />
     <Compile Include="Assets\Scripts\Gameplay\GlobalSettings.cs" />
     <Compile Include="Assets\Scripts\Character\Character.cs" />
     <Compile Include="Assets\Scripts\Core\EssentialsObjectsSpawner.cs" />

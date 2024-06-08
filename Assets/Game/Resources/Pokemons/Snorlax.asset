@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a9f9a19e51d7142992dfec77ad81ad, type: 3}
+  m_Name: Snorlax
+  m_EditorClassIdentifier: 
+  name: Snorlax
+  description: 
+  FrontSprite: {fileID: 21300000, guid: eae8de6c31a13c1498c82afed45813b6, type: 3}
+  BackSprite: {fileID: 21300000, guid: 2796aff46a21ee34d90a2c075ae39f5e, type: 3}
+  Type1: 1
+  Type2: 0
+  maxHp: 160
+  attack: 110
+  defense: 65
+  spAttack: 65
+  spDefense: 110
+  speed: 30
+  learnableMoves:
+  - movimientoBase: {fileID: 11400000, guid: 70aa4b57829063840ad4b2c89b14260b, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 7ee5891977e8b9f4d8af141eab655d2f, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: 22c1e6309658f394cbc3cf1e09cbd310, type: 2}
+    level: 50
+  - movimientoBase: {fileID: 11400000, guid: e6d0a24f3734da340a33062f9795a556, type: 2}
+    level: 50
