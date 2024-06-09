@@ -14,9 +14,11 @@
 8. [Guía de Instalación](https://github.com/josemaripv/TFG-Pokemon/wiki/Gu%C3%ADa-de-Instalaci%C3%B3n)
 9. [Guía de Uso](https://github.com/josemaripv/TFG-Pokemon/wiki/Gu%C3%ADa-de-Uso)
 10. [Pantallas](https://github.com/josemaripv/TFG-Pokemon/wiki/Pantallas)
-11. [Agradecimientos](https://github.com/josemaripv/TFG-Pokemon/wiki/Agradecimientos)
-12. [Licencias](https://github.com/josemaripv/TFG-Pokemon/wiki/Licencias)
-13. [Contacto](https://github.com/josemaripv/TFG-Pokemon/wiki/Contacto)
+11. [Conclusión](https://github.com/josemaripv/TFG-Pokemon/wiki/Conclusi%C3%B3n)
+12. [Referencias](https://github.com/josemaripv/TFG-Pokemon/wiki/Referencias)
+13. [Agradecimientos](https://github.com/josemaripv/TFG-Pokemon/wiki/Agradecimientos)
+14. [Licencias](https://github.com/josemaripv/TFG-Pokemon/wiki/Licencias)
+15. [Contacto](https://github.com/josemaripv/TFG-Pokemon/wiki/Contacto)
 
 ## Diagramas, análisis UML, Casos de USO y User Persona [(Click Aqui)](https://excalidraw.com/#json=8LKMCWqv-tQmc-Bhpkbyq,XIgEI3ptYPDBUpD369_7Zg)
 
