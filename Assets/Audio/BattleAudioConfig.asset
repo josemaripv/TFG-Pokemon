@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: BattleAudioConfig
   m_EditorClassIdentifier: 
   sceneName: Battle
-  musicClip: {fileID: 8300000, guid: dc1f2efde013f78449bca857ea867b3e, type: 3}
+  musicClip: {fileID: 8300000, guid: 639fac37dd58b6c409f6bdbb3e1ebc6d, type: 3}

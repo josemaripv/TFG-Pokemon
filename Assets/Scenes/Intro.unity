@@ -642,6 +642,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 736791687e0f9dc42a28224f53c05b23, type: 2}
   - {fileID: 11400000, guid: 4668db450b12eee42a44e322e5cb2bfd, type: 2}
   - {fileID: 11400000, guid: 305164b24eb7c114a966c958827f637d, type: 2}
+  battleAudioConfig: {fileID: 11400000, guid: a07e30e87f5f2ef4ea9a0c47da58e047, type: 2}
 --- !u!82 &1169636971
 AudioSource:
   m_ObjectHideFlags: 0
