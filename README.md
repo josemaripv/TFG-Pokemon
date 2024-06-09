@@ -10,7 +10,7 @@
 3. [Descripción](https://github.com/josemaripv/TFG-Pokemon/wiki/Descripci%C3%B3n)
 4. [Objetivos](https://github.com/josemaripv/TFG-Pokemon/wiki/Objetivos)
 5. [Justificación](https://github.com/josemaripv/TFG-Pokemon/wiki/Justificaci%C3%B3n)
-6. [Funcionalidades](https://github.com/josemaripv/TFG-Pokemon/wiki/Gu%C3%ADa-de-Instalaci%C3%B3n)
+6. [Funcionalidades](https://github.com/josemaripv/TFG-Pokemon/wiki/Funcionalidades)
 7. [Guía de Instalación](https://github.com/josemaripv/TFG-Pokemon/wiki/Gu%C3%ADa-de-Instalaci%C3%B3n)
 8. [Guía de Uso](https://github.com/josemaripv/TFG-Pokemon/wiki/Gu%C3%ADa-de-Uso)
 9. [Conclusión](https://github.com/josemaripv/TFG-Pokemon/wiki/Conclusi%C3%B3n)
