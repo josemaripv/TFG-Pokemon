@@ -21,6 +21,6 @@
 15. [Licencias](https://github.com/josemaripv/TFG-Pokemon/wiki/Licencias)
 16. [Contacto](https://github.com/josemaripv/TFG-Pokemon/wiki/Contacto)
 
-## Diagramas, análisis UML, Casos de USO y User Persona [(Click Aqui)](https://excalidraw.com/#json=8LKMCWqv-tQmc-Bhpkbyq,XIgEI3ptYPDBUpD369_7Zg)
+## Diagramas, análisis UML, Casos de USO y User Persona [(Click Aqui)](https://excalidraw.com/#room=9a327e770398b10d3c6c,LgSgIkuYKD3YLvjkr0RTKw)
 
 ### Proyecto realizado por: José María Pérez Vázquez
